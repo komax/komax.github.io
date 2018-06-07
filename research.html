@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Personal webpage" />
+	<meta name="author" content="Maximilian Konzack | Design by andreasviklund.com" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Work+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="leaves.css" title="Leaves" media="all" />
+	<link rel="icon" type="image/png" href="images/iDiv-icon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.6" />
+	<title>Maximilian Konzack</title>
+</head>
+
+<body class="light">
+	<div id="layout">
+
+		<div class="row">
+			<div class="col c6">
+				<h1 class="aligncenter"><a href="research.html">Research</a></h1>
+				<p class="aligncenter slogan">Overview of Research Projects</p>
+			</div>
+			<div class="col c6 aligncenter navmenu">
+				<p><a href="index.html" class="current">Home</a> <a href="research.html">Research</a> <a href="contact.html">Contact</a></p>
+			</div>
+		</div>
+
+		<div>
+			<p>
+				This page is a survey of past and ongoing research projects. I favored to summarize them in simple English, making our research as accessible as possible.
+			</p>
+		</div>
+
+		<div class="row framed">
+			<h3>Visual Exploration of Migration Patterns</h3>
+			<a href="http://www.tandfonline.com/doi/abs/10.1080/13658816.2016.1199806">
+				<img src="images/annelies_trajectory.jpg" width="25%" height="25%" class="alignright" alt="" /></a>
+			<p>
+				We implemented a visual analytics tool which exploits migration patterns in gull data. Migration is the spatial displacement of moving objects during seasons, such as winter and spring. We compute and visualize a trajectory aggregation (1), a density
+				map (2) on top of geographical maps, a calendar view (3) and a list of gulls (4). Our evaluation with an expert user in ecology shows that our approach helps ecologists in identify interesting moving objects.
+				<video width="640" height="480" controls poster="images/migration_tool_overview.jpg">
+						<source src="videos/gull_migration.mp4" type="video/mp4">
+					</video>
+				<p class="alignleft">
+					<h4>References</h4>
+					<ul class="base-list">
+						<li>
+							<a href="http://www.win.tue.nl/~kbuchin/proj/gullmigration/"><i class="fa fa-external-link" aria-hidden="true" style="font-size:32px;"></i> Visual Analytics tool as website</a>
+						</li>
+						<li>
+							<a href="https://github.com/komax/migration-patterns-gull-data"><i class="fa fa-github" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Source code</a>
+						</li>
+
+					<li>
+						<a href="http://journals.sagepub.com/doi/full/10.1177/1473871617751245"><i class="fa fa-external-link" aria-hidden="true" style="font-size:32px;"></i> Journal paper in Information Visualization</a>
+					</li>
+					<li>
+						<a href="papers/gull_migration_iv.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Information Visualization paper as pdf</a>
+					</li>
+						<li>
+							<a href="papers/gull_migration_vcma.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Workshop paper at VCMA 2016</a>
+						</li>
+						<li>
+							<a href="slides/gull_migration_vcma.pdf"><i class="fa fa-file-powerpoint-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Slides from VCMA 2016</a>
+						</li>
+					</ul>
+				</p>
+		</div>
+		<div class="row framed">
+			<h3>Lower Bounds on Fréchet Distance and Simplification</h3>
+			<a href="papers/lowerBoundsCurvesEuroCG.pdf">
+				<img src="images/simplification.png" width="40%" height="40%" class="alignright" /></a>
+			We have proven lower bounds for two curve problems. A lower bound of a computational problem help researchers in theory and practice to understand limits of exact computations and to get insights whether approximation algorithms can be designed easily.
+			We showed that we cannot compute an optimal simplification in subquadratic time and that we cannot compute the Fréchet distance for k curves in less than O(n^k) time. We assume for both results that the Strong Exponential Time Hypothesis (SETH) holds.
+			</p>
+			<a href="papers/lowerBoundsCurvesEuroCG.pdf">
+				<img src="images/kcurves_frechet.png" width="50%" height="50%" class="" /></a>
+
+			<p class="alignleft">
+				<h4>References</h4>
+				<ul class="base-list">
+					<li>
+						<a href="papers/lowerBoundsCurvesEuroCG.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Extended abstract at EuroCG</a>
+					</li>
+					<li>
+						<a href="slides/lower_bounds_eurocg.pdf"><i class="fa fa-file-powerpoint-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Slides from EuroCG 2016</a>
+					</li>
+				</ul>
+			</p>
+		</div>
+		<div class="row framed">
+			<h3>Visual Analytics of Delays and Interaction</h3>
+			<a href="http://www.tandfonline.com/doi/abs/10.1080/13658816.2016.1199806">
+				<img src="images/delay_space.png" width="25%" height="25%" class="alignright" alt="" /></a>
+			<p>
+				We developed a visual analytics approach to analyze and visualize interaction events between two (and three) trajectories. Interaction is the interdependence between two moving objects. We were interested in action-reaction patterns where one trajectory
+				is reacting after a delay in time. We applied and evaluated our approach on pigeon data ultimate frisbee data.
+			</p>
+			<video width="640" height="480" controls poster="images/pigeons_matching.png">
+						<source src="videos/visualization_delays.mp4" type="video/mp4">
+					</video>
+			<p class="alignleft">
+				<h4>References</h4>
+				<ul class="base-list">
+					<li>
+						<a href="https://github.com/komax/trajectory-interaction-delay"><i class="fa fa-github" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Source code</a>
+					</li>
+					<li>
+						<a href="http://www.tandfonline.com/doi/abs/10.1080/13658816.2016.1199806"><i class="fa fa-external-link" aria-hidden="true" style="font-size:32px;"></i> Journal paper in IJGIS</a>
+					</li>
+					<li>
+						<a href="papers/delay_interaction_ijgis.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;IJGIS paper as pdf</a>
+					</li>
+					<li>
+						<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7156362"><i class="fa fa-external-link" aria-hidden="true" style="font-size:32px;"></i> Visualization Note at PacificVis</a>
+					</li>
+					<li>
+						<a href="slides/visualizing_delays_pacificvis.pdf"><i class="fa fa-file-powerpoint-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Slides from PacificVis</a>
+					</li>
+				</ul>
+			</p>
+		</div>
+		<div class="row framed">
+			<h3>Low-Crossing Spanning Trees</h3>
+			<a href="papers/crossingEuroCG.pdf"><img src="images/graph.png" width="215" height="150" class="alignright" alt="" /></a>
+			We studied the problem of computing a spanning tree that minimizes crossings with lines in the plane. The problem of finding a spanning tree with minimal crossing number is NP-hard. We conducted an experimental evaluation of various algorithms and approximations
+			in form of linear programs.
+			</p>
+			<p class="alignleft">
+				<h4>References</h4>
+				<ul class="base-list">
+					<li>
+						<a href="https://github.com/komax/spanningtree-crossingnumber"><i class="fa fa-github" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Source code</a>
+					</li>
+					<li>
+						<a href="papers/crossingEuroCG.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Extended abstract at EuroCG</a>
+					</li>
+					<li>
+						<a href="slides/low-crossing_spanning_trees_eurocg.pdf"><i class="fa fa-file-powerpoint-o" aria-hidden="true" style="font-size:32px;"></i>&nbsp;&nbsp;Slides from EuroCG 2014</a>
+					</li>
+				</ul>
+			</p>
+		</div>
+		<div class="row">
+			<div class="col c12 alignright">
+				<p><span class="larger">&copy; 2018 Maximilian Konzack</span><br />
+					<a href="http://andreasviklund.com/dt_portfolio/leaves/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a><br /> Best hosted at <a href="https://www.svenskadomaner.se/?ref=mall&amp;ling=en" title="Svenska Domäner AB">www.svenskadomaner.se</a></p>
+			</div>
+		</div>
+</body>
+
+</html>
